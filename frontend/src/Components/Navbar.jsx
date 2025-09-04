@@ -57,7 +57,7 @@ const TopBar = () => {
   return (
     <header className={headerClasses}>
       {/* Logo */}
-      <div className="flex items-center space-x-4">
+      <div className="flex items-center space-x-4 ml-15">
         <Link to="/">
           <img src={logo} alt="Cywav-logo" className="h-12 md:h-16" />
         </Link>
