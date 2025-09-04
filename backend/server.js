@@ -13,7 +13,7 @@ const app = express();
 // Middleware
 app.use(cors({
   origin: [
-    // "https://cywav.vercel.app",               //Production domain  // Your frontend domain
+    "https://flight-frontend-c0da.onrender.com",               //Production domain  // Your frontend domain
     "http://localhost:5173",     // Vite dev server
     "http://localhost:3000",     // Alternative dev port
     "http://127.0.0.1:5173"      // Alternative localhost format
